@@ -36,6 +36,6 @@ publish {
     userOrg = 'agora'
     groupId = 'io.agora.rtc'
     artifactId = 'voice-sdk'
-    publishVersion = (System.getenv("PUBLISH_SDK_VERSION") as String ?: '2.4.0')
+    publishVersion = '3.3.2'
     desc = 'Agora IO'
 }
